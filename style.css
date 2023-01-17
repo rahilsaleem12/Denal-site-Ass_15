@@ -1,6 +1,7 @@
 
 
-
+@media screen and (min-width: 1300px) and (max-width: 1600px) {
+   
 
 .dentalimage{
 width: 200px;
@@ -11,7 +12,6 @@ height: 200px;
     width: 200px;
     height: 170px;
     padding-top: 150px;
-    margin-left: 50px;
     
 }
 .mainheading{
@@ -22,10 +22,10 @@ height: 200px;
     margin-top: 20px;
      */
      text-align: center;
-/* }
+}
 .imageheading{
     /* display: flex; */
-} */
+}
 .navbar{
     text-align: center;
 }
@@ -94,5 +94,104 @@ height: 200px;
 .page3 li{
     text-align: left;
 }
+}
 
+
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+   
+
+    .dentalimage{
+    width: 200px;
+    height: 200px;
+    
+    }
+    .dentalimage img{
+        width: 200px;
+        height: 170px;
+        padding-top: 150px;
+        
+    }
+    .mainheading{
+        color: rgb(141, 141, 141);
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        /* margin-left: 120px;
+        margin-top: 20px;
+         */
+         text-align: center;
+    }
+    .imageheading{
+        /* display: flex; */
+    }
+    .navbar{
+        text-align: center;
+    }
+    .navbar a{
+        
+        color:  rgb(11, 109, 84);
+        padding: 20px 40px;
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .headblock{
+        height: 70px;
+        width: 100%;
+        background-color: rgb(112, 111, 28);
+        text-align: center;
+        /* padding-top: 0px; */
+        color: rgb(218, 218, 218);
+        font-size: 40px;
+        
+    }
+    .footer{
+        display: flex;
+         text-align: center;
+        justify-content: center;
+    }
+    .page1{
+        width:300px ;
+        height: 450px;
+        background-color: rgb(155, 152, 2);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .page1 li{
+        text-align: left;
+    }
+    .page2{
+        width:300px ;
+        height: 450px;
+        background-color: rgb(155, 152, 2);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        margin-left: 30px;
+        border-radius: 10px;
+    }
+    .page2 h5 {
+        text-align: left;
+        margin-left:20px;
+    }
+    .page2 input{
+        text-align: left;
+        margin-left:10px;  
+        width: 250px;
+       
+    }
+    .page3{
+        width:300px ;
+        height: 450px;
+        background-color: rgb(155, 152, 2);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        margin-left: 30px;
+        border-radius: 10px;
+    }
+    
+    .page3 li{
+        text-align: left;
+    }
+    }
 
